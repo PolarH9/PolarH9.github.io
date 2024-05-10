@@ -1,0 +1,131 @@
+/*CSS Header*/
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #5d684d;
+    font-weight: bold;
+}
+header h2 {
+    text-align: center;
+    font-size: 15px;
+    color: #D48762;
+}
+
+/*CSS Nav*/
+nav ul { 
+	list-style-type: none;
+    padding: 0px;
+    padding-left: 50px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: #8ecae6;
+    font-size: 17px;
+} 
+nav a {
+    color: #023047;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+nav li {
+    float: left
+}
+nav ul li a:hover {
+	color: #219ebc;
+}
+.nav-right {
+    float: right;
+    padding-top: 8px;
+    padding-right: 20px;
+}
+/*CSS Body*/
+body {
+    background-color: beige;
+    margin: 0;
+}
+section h2 {
+    color: #D48762;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 40px;
+    text-align: center;
+}
+html, body {
+    height: 100%;
+}
+.image {
+    max-width: 100%;
+    max-height:900px;
+    padding-left: 160px;
+    padding-top: 30px;
+}
+p {
+    padding-left: 40px;
+    text-indent: 10px;
+}
+h3 {
+    padding-left: 40px;
+    font-size: 25px;
+    color: #D48762;
+    font-weight: bold;
+}
+.top-songs section {
+    padding-bottom: 10px;
+    padding-bottom: 0;
+}
+iframe {
+    padding-left: 40px;
+}
+/*CSS Image*/
+main image {
+    margin-left: 50px;
+}
+/*CSS Table*/
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    width: 95%;
+
+}
+td {
+    border: solid 2px black;
+    padding: 10px;
+    background-color: #8ecae6;
+}
+th {
+    border: solid 2px black;
+    background-color: #219ebc;
+    padding: 20px;
+}
+
+/*CSS Footer*/
+footer {
+    background-color: #8ecae6;
+    padding: 1px;
+    font-size:  15px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* CSS Font */
+header {
+    font-family: 'roboto';
+}
+nav {
+    font-family: 'roboto';
+}
+h2 {
+    font-family: 'roboto';
+}
+p {
+    font-family: 'open sans';
+}
+th, td {
+    font-family: 'open sans';
+}
+main h2 {
+    font-family: 'roboto';
+}

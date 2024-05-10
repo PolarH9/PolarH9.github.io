@@ -1,0 +1,70 @@
+/* CSS Main */
+.Nutrition ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+.Nutrition li {
+    border: 1px solid black;
+    margin: 5px;
+    display: inline-block;
+    font-weight: bolder;
+}
+.Nutrition span {
+    display: block;
+    padding: 1rem;
+    border-top: 1px solid #589;
+    text-align: center;
+}
+.Nutrition li span:nth-of-type(1) {
+    background-color: #ddd;
+}
+.ingredients ul {
+    padding-top: 5%;
+}
+.ingredients ul li {
+    padding: 15px 0px;
+    font-size: 20px;
+}
+.ingredients h3 {
+    padding-top: 3%;
+}
+.instructions li {
+    font-size: 20px;
+}
+/* CSS Header */
+header {
+    grid-area: header;
+}
+/* CSS Sections*/
+main .ingredients {
+    grid-area: ingredients;
+    background-color: rgba(97,96,96,255);
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    color: white;
+}
+main .instructions {
+    grid-area: instructions;
+}
+main .image {
+    grid-area: image;
+}
+main .Nutrition {
+    grid-area: Nutrition;
+}
+/* CSS Grid-layout */
+#recipe-page {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "ingredients instructions instructions"
+    "ingredients image        image"       
+    "ingredients Nutrition    Nutrition";
+
+    
+}   

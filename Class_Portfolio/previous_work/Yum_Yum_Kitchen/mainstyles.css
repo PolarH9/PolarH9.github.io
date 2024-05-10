@@ -1,0 +1,123 @@
+* {
+	box-sizing: border-box;
+}
+/* CSS Nav */
+nav { 
+	background: white; 
+	padding: 0;
+	font-size: 20px;
+	font-weight: bold;
+
+}  
+nav ul { 
+	list-style-type: none;
+    background-color:  #47564a;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+} 
+nav ul li { 
+	margin: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+} 
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+nav li{
+    float: left
+}
+nav ul li a {
+	text-decoration: none;
+	background-color: #47564a;
+	color: #B8CABA;
+	padding: 10px;
+	display: block;
+	border-radius: 5px;
+}
+nav ul li a:hover {
+	background: #B8CABA;
+	color: #47564a;
+	display: block;
+}
+/* CSS Header */
+header {
+	background-image: url(pictures/Hero_image.jpg);
+	height: 300px;
+	background-size: cover;
+	background-position: 30%;
+	position: relative;
+	margin-top: 0px;
+  }
+header h1 {
+	color: white;
+	font-size: 3rem;
+	position: absolute;
+	left: 20%;
+}
+header span {
+	color: white;
+	font-size: 2rem;
+	display: block;
+}
+
+/* CSS Main */
+main {
+	display: flex;
+	flex-flow: row wrap;
+}
+main section {
+	flex: 1 1 33%;
+	padding: 25px;
+	font-weight: 450;
+}
+main section img {
+	max-width: 100%;	
+	width: auto;
+	padding-top: .5%;
+}
+
+/* CSS Footer */
+footer {
+	background-color: lightgray;
+	font-size: 17px;
+	padding: 1px 30px;
+}
+
+/* CSS Body */
+body {
+	margin: 0;
+	padding-right: 0;
+}
+
+html, body {
+	width: 100%;
+    height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+/* CSS Font */
+header {
+	font-family: 'Ribeye';
+}
+
+h2 {
+	font-family: 'Ribeye Marrow';
+	font-weight: 300;
+}
+
+section h2 {
+	font-family: 'Ribeye';
+}
+h1 span {
+	font-family: 'Ribeye Marrow';
+}
+nav {
+	font-family: 'Lato';
+}
